@@ -1,50 +1,174 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Non</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Non</h1>
-        <ul>
-          <li>about</li>
-          <li>projects</li>
-          <li>menu3</li>
-        </ul>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <main class="main">
-        <footer class="footer">
-        <nav class="site-menu">
-            <ul>
-              <li><a href="./about.html">ABOUT</a></li>
-              <li><a href="./PROJECT.html">PROJECTS</a></li>
-              <li><a href="./shop.html">SHOP</a></li>
-              <li><a href="./access.html">ACCESS</a></li>
-            </ul>
-            </nav>
-            <a class="footer-logo" href="./index.html">
-                <img src="./images/logo1024_1.png" alt="KISSA">
-            </a>
-            <p class="footer-tel">TEL 080-6266-1615</p>
-            <p class="footer-time">OPEN Fri-sun 11:00-16:00</p>
-            <p class="copyright"><small>&copy;Non</small></p>
-        </footer>
-    </main>
+  <!-- 必要なライブラリをネット上から直接参照 CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- 自分のcss -->
+  <link rel="stylesheet" href="./css/style01.css" />
+  <!-- 自分のjs -->
+  <script src="./js/script01.js"></script>
+  <title>Non</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Non</h1>
+      <ul>
+        <li>about</li>
+        <li>projects</li>
+        <li>menu3</li>
+      </ul>
+    </header>
+
+    <main class="main">
+      <section class="concept">
+        <div class="concept-movie js-load-ready js-load-start">
+          <picture class="concept-movie-inner" style="transform: translate(0%, -19.4742%) translate3d(0px, 0px, 0px) scale(1.0351, 1.03509);">
+            <source media="(max-width: 768px)" srcset="https://h-u-g.co.jp/wp-content/themes/template/assets/images/about/concept_bg_sp.jpg" width="750" height="1500">
+            <img src="https://h-u-g.co.jp/wp-content/themes/template/assets/images/about/concept_bg_pc.jpg" alt="" width="1440" height=" 1060" loading="auto">
+          </picture>
+        </div>
+        
+        <div class="concept-lead js-scrollBlock-ready js-scrollBlock-start" data-block-delay="500">
+          <p class="js-scrollBlock-mask"><span class="js-scrollBlock-mask-inline">What’s</span><span class="js-scrollBlock-mask-inline">&nbsp;</span><span class="js-scrollBlock-mask-inline">HUG?</span></p>
+        </div>
+      
+        <div class="concept-message">
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="left">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">私の心の窓から見える景色と<br>あなたの窓から見える景色は違っていて、</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="left">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">同じものを見ても<br class="c-display-sp">私が窓枠に残った<br>雨の跡を気にしているそばで、</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="left">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">あなたは私には見えない<br class="c-display-sp">小さいな<br class="c-display-pc">生物を<br class="c-display-sp">愛でているかもしれない。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="concept-message-space"></div>
+          
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="right">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">違うことに敏感でありながら、<br>恐れずに、楽しんだりもしたい</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="right">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">目の前にあるそれらと、<br class="c-display-sp">もっと遠くの、<br>まだ見ぬ未来を一緒に見つめる<br class="c-display-sp">まなざしとをもって</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="right">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">よかったら、一緒に歩きませんか。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="concept-message-space"></div>
+      
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="left">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">個と個の対話が生み出す<br class="c-display-sp">「決まりごと」への対抗心、<br>どこまでもゆけそうな想像の翼が</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="left">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">社会を彫刻することそのものであり、</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item" data-position="left">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-inner">HUGが、そして私が<br>ずっと追い求めていきたいことです。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="concept-message-block js-conceptBlock-ready js-conceptBlock-start">
+            <div class="concept-item is-last js-conceptLast-ready js-conceptLast-start" data-position="left">
+              <div class="concept-item-inner">
+                <div class="concept-item-txt">
+                  <p class="concept-item-txt-base">&nbsp;</p>
+                  <p class="concept-item-txt-inner"><span data-text="ピース" class="is-large">🕊</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
 
       <footer>
-        this is nonoka's portfolio
+        <a class="footer-logo" href="./index.html">
+        </a>
+        <p class="footer-tel">TEL 080-6266-1615</p>
+        <p class="footer-time">OPEN Fri-sun 11:00-16:00</p>
+        <p class="copyright"><small>&copy;Non
+          </small></p>
       </footer>
+    </main>
 
-      <div id="intro">
-        <p>my</p>
-      </div>
+    <footer>
+      this is nonoka's portfolio
+    </footer>
 
-
+    <div id="intro">
+      <p>my</p>
     </div>
-  </body>
+
+
+  </div>
+</body>
+
 </html>

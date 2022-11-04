@@ -6,10 +6,6 @@ html,body,#contents,.wrapper,#back{
   position: relative;
 }
 
-.wrapper{
-  
-}
-
 li{
   list-style: none;
 }
@@ -113,6 +109,7 @@ header ul li{
 }
 
 
+
 #intro{
   position: fixed;
   display: flex;
@@ -126,4 +123,47 @@ header ul li{
   align-items: center;
   justify-content: center;
   top: 0;
+}
+
+#concept{
+--wp--preset--font-size--normal: 16px;
+--wp--preset--font-size--huge: 42px;
+--firstViewHeight: 645px;
+--vw: 855px;
+font-family: "Cabinet Grotesk","Yu Gothic",yugothic,"ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN","メイリオ",meiryo,sans-serif;
+font-feature-settings: "palt";
+line-height: 1.8;
+color: #101010;
+letter-spacing: .05em;
+text-size-adjust: 100%;
+font-size: 1.5rem;
+-webkit-font-smoothing: antialiased;
+cursor: none !important;
+all: unset;
+box-sizing: border-box;
+position: relative;
+display: grid;
+}
+#js-scrollBlock-mask-inline{
+  --wp--preset--font-size--normal: 16px;
+--wp--preset--font-size--huge: 42px;
+--firstViewHeight: 645px;
+--vw: 855px;
+font-feature-settings: "palt";
+color: #101010;
+text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+cursor: none !important;
+font-family: "Cabinet Grotesk",sans-serif;
+font-weight: 700;
+line-height: 1;
+letter-spacing: 0;
+font-size: 6.4rem;
+all: unset;
+box-sizing: border-box;
+display: inline-block;
+transition: transform 900ms cubic-bezier(0.77, 0, 0.175, 1);
+transform: translate3d(0, 0%, 0);
+will-change: transform;
+transition-delay: 500ms;
 }
