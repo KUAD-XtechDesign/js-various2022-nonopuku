@@ -34,3 +34,8 @@ $(function(){
   }
 
 })
+
+const stalker = document.querySelector('.stalker');
+document.addEventListener('mousemove', function(e){
+  stalker.style.transform = `translate(${e.clientX - 25}px, ${e.clientY - 25}px`;
+})
