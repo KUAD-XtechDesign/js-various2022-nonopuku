@@ -73,12 +73,12 @@ header ul li{
   position: fixed;
   display: flex;
   z-index: 101;
-  background-color: rgb(255, 231, 93);
+  background-color: rgb(255, 217, 0);
   width: 100%;
   height: 100%;
   color: rgb(255, 255, 255);
-  font-family: Rubik Bubbles;
-  font-size: 20px;
+  font-family: Bebas Neue;
+  font-size: 65px;
   align-items: center;
   justify-content: center;
   top: 0;
