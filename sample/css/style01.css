@@ -1,20 +1,23 @@
-
-html,body,#contents,.wrapper,#back{
+html,
+body,
+#contents,
+.wrapper,
+#back {
   background-color: #ffffff;
   height: 100%;
   width: 100%;
   position: relative;
 }
 
-li{
+li {
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-header{
+header {
   position: fixed;
   width: 100%;
   background-color: #fff;
@@ -25,26 +28,26 @@ header{
   top: 0;
 }
 
-footer{
+footer {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  bottom:0;
+  bottom: 0;
   padding: 5px;
   text-align: right;
   font-size: 10px;
 }
 
-header h1{
+header h1 {
   font-size: 20px;
 }
 
-header ul{
+header ul {
   display: flex;
   margin-left: auto;
 }
 
-header ul li{
+header ul li {
   margin-left: 20px;
 }
 
@@ -69,7 +72,7 @@ header ul li{
 }
 
 
-#intro{
+#intro {
   position: fixed;
   display: flex;
   z-index: 101;
