@@ -28,6 +28,11 @@ header {
   top: 0;
 }
 
+#header_logo img {
+  display: block;
+  width: 45px;
+}
+
 footer {
   position: fixed;
   width: 100%;
